@@ -1,0 +1,105 @@
+.full2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.screen2{
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);    
+}
+.value{
+    height: 100px;
+    width: 100%;
+   margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#num{
+    font-size: 5rem;
+    color: #e57744;
+ 
+}
+.bmi1{
+    margin-top: 0px;
+    margin-left: 3%;
+    align-items: flex-start;
+    height: 60%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.result{
+    margin-top: 0px;
+    font-size: 1rem;
+    color: blue;
+}
+.scale{
+   height: 50%;
+   width: 100%;
+ 
+   margin-top: 50px;
+   
+}
+.colour{
+    height: 20px;
+    width: 100%px; 
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.under{
+    width: 30%;
+    background-color: blue;
+    height: 8px;
+}
+.normal{
+      width: 30%;
+    background-color: greenyellow;
+    height: 8px;
+}
+.over{
+    width: 30%;
+    background-color: red;
+    height: 8px;
+
+}
+.text{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+   font-weight: 500;
+
+}
+#n{
+    margin-right: px;
+}
+#u{
+    margin-right: 10px;
+    margin-left: -20px;
+}
+#o{
+    margin-left: 20px;
+}
+.measur{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+#u-n{
+    margin-left: 9px;
+}
+#n-o{
+    margin-right: 9px;
+}
+.info{
+    margin-left: 25%;
+}

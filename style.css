@@ -1,0 +1,168 @@
+body {
+    
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.full{
+    display: flex;
+    justify-content: center;
+
+}
+.screen{
+   
+    width: 350px;
+    height: 650px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);   
+ 
+}
+.box{
+  
+  justify-content: center;
+  align-items: center;
+    border-radius: 20px;
+ height: 80px;
+ width:330px;
+ margin-top: 10px;
+ margin-left: 9px;
+}
+.fill{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+     background-color: blue;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start
+     
+
+}
+.text{
+    height: 40px;
+    width: 200px;
+    margin-left:50px ;
+   
+    
+}
+.text p{
+   color: azure;
+   font-size: 1.5rem;  
+   font-style: inherit; 
+   font-weight: 600;
+
+    
+}
+.s{
+    font-size: 1.2rem;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.male{ 
+    height: 90px;
+    width: 35%; 
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;
+    
+}
+.female{ 
+    height: 90px;
+    width: 35%;  
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.l{
+    font-size: 3rem;
+}
+.male:hover{
+    background-color: blue;
+    color: white;
+}
+
+.female:hover{
+    background-color: #E41B97;
+    color: #f4f4f4;
+}
+.male:click{
+    background-color: blue;
+}
+.male:active{
+    background-color: green;
+   
+}
+.log{
+    height: 40px;
+    width: 40px;
+    border: 2px #E41B97 solid;
+    margin-left: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E41B97;
+    color: white;
+}
+.person{
+    font-size: 1.5rem;
+}
+.both{
+    display: flex;
+    
+}
+.enter{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px grey solid;
+    width: 65%;
+ 
+}
+.both2{
+display: flex;
+
+}
+.weight-logo{
+    font-size: 1.5rem;
+}
+.both3{
+    display: flex;
+}
+.height-logo{
+    font-size: 1.5rem;
+}
+.submit{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get{
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: blue;
+    border: none;
+    text-decoration: none;
+
+}
+.get p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background: none;
+   
+}
